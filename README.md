@@ -3,11 +3,12 @@ An extreme attack base on the paper "One pixel attack for fooling deep neural ne
 
 ## Demo
 - Our results:
-    - ![alt text](https://github.com/Jossome/one-pixel-attack-keras/blob/master/images/1.png?raw=true)
+    - ![](https://github.com/Jossome/one-pixel-attack-keras/blob/master/images/1.png =250x250)
 - One-pixel-attack results:
-    - ![alt text](https://github.com/Jossome/one-pixel-attack-keras/blob/master/images/one_pixel.png?raw=true)
+    - ![](https://github.com/Jossome/one-pixel-attack-keras/blob/master/images/one_pixel.png =250x250)
 
 ## What's new?
+- Our adversarial pixel is harder or even impossible to find.
 - Objective:
     - $$ L = e^{\gamma(C-1)} + \Delta $$, a soft manner.
     - where C stands for real class label, $\Delta$ stands for the difference between the pixel before and after attack.
